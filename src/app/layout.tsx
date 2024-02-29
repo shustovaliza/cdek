@@ -16,6 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@cdek-it/widget@3"
+          async
+          charSet="utf-8"
+        ></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
